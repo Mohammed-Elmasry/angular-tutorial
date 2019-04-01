@@ -10,16 +10,10 @@ import {HeroService} from '../hero.service';
 
 //this is the ngModel
 export class HeroesComponent implements OnInit {
-  // public hero: Hero = {id: 1, name :"WindStorm"};
-  public selectedHero: Hero;
+
   public heroes: Hero[];
   
   constructor(private heroService: HeroService) { } //inject service into constructor
-  
-  
-  onSelect(hero: Hero): void{
-    this.selectedHero = hero;
-  }
   
   getHeroes(): void {
     this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes);
