@@ -1,16 +1,16 @@
 # <<<components>>>:
 
-	1 	- header.
-	2 	- footer.
-	3 	- cart counter component.
-	4 	- wishlist counter component.
-	5 	- username component.
-	6 	- logout component.
-	7 	- homepage (app.component.ts/html).
-	8 	- single product component.
-	9 	- login form component.
-	10 	- register form component.
-	11  - children components as we need (check the labs).
+	1 	- header. (ok)
+	2 	- footer. (ok)
+	3 	- cart counter component. (ok)
+	4 	- wishlist counter component. (ok)
+	5 	- username component. (ok)
+	6 	- logout component. (ok)
+	7 	- homepage (app.component.ts/html). (ok)
+	8 	- single product component. (ok)
+	9 	- login form component. (ok)
+	10 	- register form component. (ok)
+	11  - children components as we need (check the labs). (ok)
 
 
 # <<<products>>>:
@@ -22,3 +22,5 @@
 # <<<navigation Links>>>:
 	1 - home.
 	2 - cart.
+	3 - wish.
+	4 - product_details.
